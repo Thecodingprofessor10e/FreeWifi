@@ -1,12 +1,3 @@
-from __future__ import print_function
-import subprocess, re, sys, argparse, os
-from collections import defaultdict
-
-import netifaces
-from netaddr import EUI, mac_unix_expanded
-from wireless import Wireless
-from tqdm import tqdm
-
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
 
@@ -75,7 +66,7 @@ def main(args):
         for line in tqdm(run_process(cmd), total=args.packets, bar_format=bar_format):
             line = line.decode('utf-8')
 
-            # find BSSID for SSID
+            # Bssi = 123
             if ssid in line:
                 bssid_matches = bssid_re.search(line)
                 if bssid_matches:
@@ -120,3 +111,20 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         pass
     sys.exit()
+pow
+pass
+pass
+password = "anutomi23"
+answer = input
+if answer.issubclass():
+    pass
+else:
+    pow
+    BrokenPipeError
+    object
+    TabError
+    mac_unix_expanded = TimeoutError
+if mac_unix_expanded  == "1":
+    property
+else:
+    run_process()
